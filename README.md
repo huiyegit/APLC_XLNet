@@ -37,3 +37,9 @@ Our raw texts are from [ERUlex](https:) [Wiki10](https:) [AmazonCat](https:) [Wi
 3. Count the largest number of positive labels of one sample in all samples, and assign this value to the hyperparameter --pos_label
 4. Add your dataset name into the dictionary 'processors' and 'output_modes' in the source file 'the utils_multi_label.py'
 5. Create your bash file and set the hyperparameters in 'code/run/'
+
+## Training and evaluation
+Run the command for the dataset EURlex
+```
+bash ./run/eurlex.bash
+```
