@@ -21,3 +21,6 @@ The source code will be uploaded soon!
     ```bash
     pip install -r requirements.txt
     ```
+## Prepare Data
+
+1. Download our preprocessed data for [ERUlex](https://) [Wiki10](https:) [AmazonCat](https:) [Wiki500k](https:) [Amazon670k](https:) and save them to `data/`. Unzip the zip files.
