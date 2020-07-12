@@ -29,7 +29,7 @@ The source code will be uploaded soon!
 2. Unzip the zip files.
 
 ### raw texts
-Our raw texts is from [ERUlex](https:) [Wiki10](https:) [AmazonCat](https:) [Wiki500k](https:) [Amazon670k](https:)
+Our raw texts are from [ERUlex](https:) [Wiki10](https:) [AmazonCat](https:) [Wiki500k](https:) [Amazon670k](https:)
 
 ### preprocess your custom dataset
 1. Create the train.csv file for training and dev.csv file for testing. Reference our preprocessed dataset for the format of the csv file
