@@ -6,7 +6,7 @@ This is the official Pytorch implementation of the paper [Pretrained Generalized
 The source code will be uploaded soon!
 
 ## Requirements
-* Ubuntu ≥ 16.04
+* Linux
 * Python ≥ 3.6
     ```bash
     # We recommend you to use Anaconda to create a conda environment 
