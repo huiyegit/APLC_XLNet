@@ -6,10 +6,6 @@ This is the official Pytorch implementation of the paper [Pretrained Generalized
 The source code will be uploaded soon!
 
 ## Requirements
-- Linux
-- Python ≥ 3.6
-- PyTorch ≥ 1.4.0
-
 * Ubuntu 16.04
 * Python ≥ 3.6
     ```bash
