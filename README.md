@@ -37,10 +37,9 @@ The source code will be uploaded soon!
 
 ## Run the source code
 ### Training and evaluation
-Run the command for the dataset EURlex
-```
-bash ./run/eurlex.bash
-```
+
+For dataset EURlex: `bash ./run/eurlex.bash`
+
 ### Evaluation on our trained models
 1. Download our trained models for 
 
