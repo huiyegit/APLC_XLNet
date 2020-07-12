@@ -38,13 +38,13 @@ Our raw texts are from [ERUlex](https:) [Wiki10](https:) [AmazonCat](https:) [Wi
 4. Add your dataset name into the dictionary 'processors' and 'output_modes' in the source file 'the utils_multi_label.py'
 5. Create your bash file and set the hyperparameters in 'code/run/'
 
-## Training and evaluation
+## Run the source code
+### Training and evaluation
 Run the command for the dataset EURlex
 ```
 bash ./run/eurlex.bash
 ```
-
-## Evaluation on our trained models
+### Evaluation on our trained models
 1. Download our trained models for 
 
 2. Run the command for the dataset EURlex
