@@ -1,0 +1,14 @@
+tqdm
+boto3
+requests
+regex
+sentencepiece
+tensorboardX
+pandas
+scipy
+sklearn
+
+
+
+
+
