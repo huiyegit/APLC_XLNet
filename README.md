@@ -25,7 +25,7 @@ The source code will be uploaded soon!
 
 ### preprocessed data
 
-Download our preprocessed data for [ERUlex](https) [Wiki10](https:) [AmazonCat](https:) [Wiki500k](https:) [Amazon670k](https:) and save them to `data/`
+Download our preprocessed datasets from [Google Drive](https://drive.google.com/drive/folders/1bRLrc8N3ukzAVn9zyTqr0IqP3fWJUYAt?usp=sharing) and save them to `data/`
 
 ### preprocess the custom dataset
 1. Create `train.csv` and `dev.csv`. Reference our preprocessed dataset for the format of the csv file
@@ -37,12 +37,17 @@ Download our preprocessed data for [ERUlex](https) [Wiki10](https:) [AmazonCat](
 ## Run the source code
 ### Training and evaluation
 
-For dataset EURlex: `bash ./run/eurlex.bash`
+For dataset EURlex:     `bash ./run/eurlex.bash`
+For dataset Wiki10:     `bash ./run/wiki10.bash`
+For dataset AmazonCat:  `bash ./run/amazoncat.bash`
+For dataset Wiki500k:   `bash ./run/wiki500k.bash`
+For dataset Amazon670k: `bash ./run/amazon670k.bash`
 
 ### Evaluation on our pretrained models
-1. Download our pretrained models for 
+1. Download our pretrained models from [Google Drive](https://drive.google.com/drive/folders/1SK2OO6tqxxYZBCkQOVsULzdEy_ZyKUd8?usp=sharing)  and save them to `models/`
 
-2. Run the command for the dataset EURlex
-```
-bash ./run/eurlex.bash
-```
+2. For dataset EURlex:     `bash ./run/eurlex_evaluate.bash`
+   For dataset Wiki10:     `bash ./run/wiki10_evaluate.bash`
+   For dataset AmazonCat:  `bash ./run/amazoncat_evaluate.bash`
+   For dataset Wiki500k:   `bash ./run/wiki500k_evaluate.bash`
+   For dataset Amazon670k: `bash ./run/amazon670k_evaluate.bash`
