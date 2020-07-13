@@ -39,8 +39,8 @@ Download our preprocessed data for [ERUlex](https) [Wiki10](https:) [AmazonCat](
 
 For dataset EURlex: `bash ./run/eurlex.bash`
 
-### Evaluation on our trained models
-1. Download our trained models for 
+### Evaluation on our pretrained models
+1. Download our pretrained models for 
 
 2. Run the command for the dataset EURlex
 ```
