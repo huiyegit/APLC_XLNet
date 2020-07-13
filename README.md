@@ -25,8 +25,7 @@ The source code will be uploaded soon!
 
 ### preprocessed data
 
-1. Download our preprocessed data for [ERUlex](https) [Wiki10](https:) [AmazonCat](https:) [Wiki500k](https:) [Amazon670k](https:) and save them to `data/`.
-2. Unzip the zip files.
+Download our preprocessed data for [ERUlex](https) [Wiki10](https:) [AmazonCat](https:) [Wiki500k](https:) [Amazon670k](https:) and save them to `data/`
 
 ### preprocess your custom dataset
 1. Create the train.csv file for training and dev.csv file for testing. Reference our preprocessed dataset for the format of the csv file
