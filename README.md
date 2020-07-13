@@ -26,7 +26,7 @@ This is the official Pytorch implementation of the paper [Pretrained Generalized
 Download our preprocessed datasets from [Google Drive](https://drive.google.com/drive/folders/1bRLrc8N3ukzAVn9zyTqr0IqP3fWJUYAt?usp=sharing) and save them to `data/`
 
 ### preprocess the custom dataset
-1. Create `train.csv` and `dev.csv`. Reference our preprocessed dataset for the format of the csv file
+1. Create `train.csv` and `dev.csv`. Reference our preprocessed dataset for the format of the CSV file
 2. Create `labels.txt`. Labels should be sorted in descending order accoridng to their frequency
 3. Count the number of positive labels of each sample, select the largest number in all samples, and assign this value to the hyperparameter `--pos_label`
 4. Add the dataset name into the dictionary `processors` and `output_modes` in the source file `utils_multi_label.py`
