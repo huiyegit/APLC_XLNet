@@ -28,11 +28,11 @@ The source code will be uploaded soon!
 Download our preprocessed data for [ERUlex](https) [Wiki10](https:) [AmazonCat](https:) [Wiki500k](https:) [Amazon670k](https:) and save them to `data/`
 
 ### preprocess your custom dataset
-1. Create the train.csv file for training and dev.csv file for testing. Reference our preprocessed dataset for the format of the csv file
-2. Create the labels.txt file. Labels should be sorted in descending order accoridng to their frequency
-3. Count the largest number of positive labels of one sample in all samples, and assign this value to the hyperparameter --pos_label
-4. Add your dataset name into the dictionary 'processors' and 'output_modes' in the source file 'the utils_multi_label.py'
-5. Create your bash file and set the hyperparameters in 'code/run/'
+1. Create the `train.csv` for training and `dev.csv` for testing. Reference our preprocessed dataset for the format of the csv file
+2. Create the `labels.txt`. Labels should be sorted in descending order accoridng to their frequency
+3. Count the largest number of positive labels of one sample in all samples, and assign this value to the hyperparameter `--pos_label`
+4. Add your dataset name into the dictionary `processors` and `output_modes` in the source file `the utils_multi_label.py`
+5. Create your bash file and set the hyperparameters in `code/run/`
 
 ## Run the source code
 ### Training and evaluation
