@@ -30,7 +30,7 @@ Download our preprocessed data for [ERUlex](https) [Wiki10](https:) [AmazonCat](
 ### preprocess the custom dataset
 1. Create `train.csv` and `dev.csv`. Reference our preprocessed dataset for the format of the csv file
 2. Create `labels.txt`. Labels should be sorted in descending order accoridng to their frequency
-3. Count the number of positive labels of one sample, select the largest number in all samples, and assign this value to the hyperparameter `--pos_label`
+3. Count the number of positive labels of each sample, select the largest number in all samples, and assign this value to the hyperparameter `--pos_label`
 4. Add the dataset name into the dictionary `processors` and `output_modes` in the source file `the utils_multi_label.py`
 5. Create the bash file and set the hyperparameters in `code/run/`
 
