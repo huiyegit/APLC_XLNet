@@ -45,8 +45,8 @@ Run the commands
 1. Download our pretrained models from [Google Drive](https://drive.google.com/drive/folders/1SK2OO6tqxxYZBCkQOVsULzdEy_ZyKUd8?usp=sharing)  and save them to `models/`
 
 2. Run the commands 
-   - For dataset EURlex:     `bash ./run/eurlex_evaluate.bash`
-   - For dataset Wiki10:     `bash ./run/wiki10_evaluate.bash`
-   - For dataset AmazonCat:  `bash ./run/amazoncat_evaluate.bash`
-   - For dataset Wiki500k:   `bash ./run/wiki500k_evaluate.bash`
-   - For dataset Amazon670k: `bash ./run/amazon670k_evaluate.bash`
+   - For dataset EURlex:     `bash ./run/eurlex_eval.bash`
+   - For dataset Wiki10:     `bash ./run/wiki10_eval.bash`
+   - For dataset AmazonCat:  `bash ./run/amazoncat_eval.bash`
+   - For dataset Wiki500k:   `bash ./run/wiki500k_eval.bash`
+   - For dataset Amazon670k: `bash ./run/amazon670k_eval.bash`
