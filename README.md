@@ -29,7 +29,7 @@ Download our preprocessed datasets from [Google Drive](https://drive.google.com/
 1. Create `train.csv` and `dev.csv`. Reference our preprocessed dataset for the format of the CSV file
 2. Create `labels.txt`. Labels should be sorted in descending order accoridng to their frequency
 3. Count the number of positive labels of each sample, select the largest one in all samples, and assign it to the hyperparameter `--pos_label`
-4. Add the dataset name into the dictionary `processors` and `output_modes` in the source file `utils_multi_label.py`
+4. Add the `dataset name` into the dictionary `processors` and `output_modes` in the source file `utils_multi_label.py`
 5. Create the bash file and set the hyperparameters in `code/run/`
 
 ## Run the source code
