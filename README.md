@@ -32,6 +32,10 @@ Download our preprocessed datasets from [Google Drive](https://drive.google.com/
 4. Add the `dataset name` into the dictionary `processors` and `output_modes` in the source file `utils_multi_label.py`
 5. Create the bash file and set the hyperparameters in `code/run/`
 
+### preprocessed data for [AttentionXML](https://github.com/yourh/AttentionXML)
+Download our preprocessed datasets from [Google Drive](https://drive.google.com/drive/u/1/folders/1jy042juOzXRcTLIMRR0EhfAN7IytrExf)
+
+
 ## Run the source code
 ### Training and evaluation
 Run the commands
