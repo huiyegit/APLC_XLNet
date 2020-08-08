@@ -35,6 +35,7 @@ Download our preprocessed datasets from [Google Drive](https://drive.google.com/
 ### preprocessed data for [AttentionXML](https://github.com/yourh/AttentionXML)
 Download our preprocessed datasets from [Google Drive](https://drive.google.com/drive/u/1/folders/1jy042juOzXRcTLIMRR0EhfAN7IytrExf)
 
+### raw text 
 
 ## Run the source code
 ### Training and evaluation
