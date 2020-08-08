@@ -8,7 +8,7 @@ python main.py \
 --data_dir ../data/AmazonCat \
 --max_seq_length 192 \
 --per_gpu_train_batch_size=12 \
---per_gpu_eval_batch_size=16 \
+--per_gpu_eval_batch_size=24 \
 --learning_rate_x 5e-5 \
 --learning_rate_h 1e-4 \
 --learning_rate_a 2e-3 \
