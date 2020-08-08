@@ -38,7 +38,7 @@ Download our preprocessed datasets from [Google Drive](https://drive.google.com/
 ### raw text 
 - For dataset EURlex, the raw text is from [website](http://www.ke.tu-darmstadt.de/resources/eurlex/eurlex.html)
 - For dataset Wiki500k, the raw text is from [Google Drive](https://drive.google.com/drive/folders/1KQMBZgACUm-ZZcSrQpDPlB6CFKvf9Gfb)
-- For dataset Wiki10,AmazonCat and Amazon670k, the raw texts are from [The Extreme Classification Repository](http://manikvarma.org/downloads/XC/XMLRepository.html)
+- For dataset Wiki10, AmazonCat and Amazon670k, the raw texts are from [The Extreme Classification Repository](http://manikvarma.org/downloads/XC/XMLRepository.html)
 
 ## Run the source code
 ### Training and evaluation
