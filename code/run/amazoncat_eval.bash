@@ -12,7 +12,7 @@ python main.py \
 --learning_rate_x 5e-5 \
 --learning_rate_h 1e-4 \
 --learning_rate_a 2e-3 \
---num_train_epochs 15.0 \
+--num_train_epochs 8.0 \
 --output_dir ../models/AmazonCat \
 --pos_label 57 \
 --adaptive_cutoff 6665 \
