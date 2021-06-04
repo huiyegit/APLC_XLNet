@@ -413,7 +413,7 @@ def metric_pk(logits,truth, k = 1):
         intersection = np.intersect1d(pre_ind[i,:], truth[i,:])
         hit_sum += len(intersection)
 
-    p_k = hit_sum / row
+    p_k = hit_sum / (row * k)
 
 
     return p_k
